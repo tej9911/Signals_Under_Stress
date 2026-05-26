@@ -1,21 +1,21 @@
 # Signals Under Stress
 
-Signals Under Stress is a machine learning and signal analysis project focused on detecting and analyzing stress patterns from physiological and sensor-based signals. The system processes signal data using preprocessing, feature extraction, and predictive modeling techniques to identify stress-related patterns with improved accuracy.
+An interactive data visualization and analytics platform focused on showcasing the transformation of the Indian telecom industry before and after the entry of Reliance Jio. The application highlights major shifts in subscriber growth, pricing strategies, market competition, data consumption, and technological advancements through dynamic dashboards and analytical insights.
 
-The project demonstrates the integration of signal processing and machine learning for intelligent monitoring and analytical applications.
+The project was developed to demonstrate data analysis, visualization, and full-stack development capabilities by converting telecom industry data into meaningful business insights and comparative trends.
 
 ---
 
 ## Features
 
-- Signal preprocessing and normalization
-- Feature extraction from signal data
-- Stress pattern detection and classification
-- Machine learning prediction pipeline
-- Interactive frontend dashboard
-- Backend API integration
-- Real-time analytical insights
-- Modular project architecture
+- Comparative analysis of telecom industry growth
+- Pre-Jio vs Post-Jio market transformation insights
+- Interactive analytical dashboards
+- Subscriber and market share visualization
+- Pricing trend analysis
+- Telecom technology adoption tracking
+- Real-time styled dashboard interface
+- Responsive frontend with modular architecture
 
 ---
 
@@ -25,22 +25,44 @@ The project demonstrates the integration of signal processing and machine learni
 - React.js
 - Tailwind CSS
 - JavaScript
+- Radix UI
 
 ### Backend
 - Python
-- Flask
+- Flask / FastAPI
 
-### Machine Learning
-- Scikit-learn
-- NumPy
-- Pandas
+### Data & Analytics
+- Data Visualization
+- Statistical Analysis
+- Business Insight Representation
+
+---
+
+## Dashboards Included
+
+- Subscriber Growth Dashboard
+- Market Share Analysis
+- Pricing Comparison Dashboard
+- Technology Evolution Dashboard
+- Industry Insights Dashboard
+
+---
+
+## Key Analysis Areas
+
+- Impact of Reliance Jio on the telecom sector
+- Reduction in mobile data pricing
+- Increase in internet accessibility and usage
+- Changes in subscriber distribution
+- Market competition among telecom providers
+- Growth of 4G and 5G adoption in India
 
 ---
 
 ## Project Structure
 
 ```bash
-Signals_Under_Stress/
+project/
 │
 ├── backend/
 │   ├── server.py
@@ -49,18 +71,18 @@ Signals_Under_Stress/
 ├── frontend/
 │   ├── public/
 │   ├── src/
-│   └── package.json
+│   └── components/
 │
 ├── README.md
 ├── vercel.json
-└── test_result.md
+└── design_guidelines.json
 ```
 
 ---
 
 ## Installation
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/tej9911/Signals_Under_Stress.git
@@ -106,23 +128,14 @@ npm start
 
 ---
 
-## Applications
+## Purpose of the Project
 
-- Healthcare monitoring
-- Stress analysis systems
-- Signal processing research
-- Intelligent monitoring applications
-- Educational and research purposes
-
----
-
-## Future Enhancements
-
-- Deep learning-based stress prediction
-- Real-time sensor integration
-- Enhanced visualization dashboards
-- Advanced feature engineering
-- Cloud deployment support
+This project was built to demonstrate:
+- Data analysis and interpretation skills
+- Business insight generation
+- Interactive dashboard development
+- Frontend and backend integration
+- Visualization of real-world industry transformation
 
 ---
 
@@ -136,4 +149,4 @@ GitHub: https://github.com/tej9911
 
 ## License
 
-This project is developed for educational and research purposes.
+This project is developed for educational, analytical, and portfolio purposes.
