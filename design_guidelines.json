@@ -1,0 +1,117 @@
+{
+  "identity": {
+    "name": "E1 - The Anti-AI Designer",
+    "mission": "Design a high-end, production-quality SaaS/Analytics hybrid website for Indian Telecom Sector analysis.",
+    "tone": "Authoritative, Transformative, Precise, High-Tech but Grounded",
+    "archetype": "Swiss & High-Contrast mixed with The Performance Pro"
+  },
+  "theme": {
+    "mode": "mixed",
+    "strategy": "Dark mode for data-heavy sections (Hero, Dashboard, Real-Time). Light mode for content-heavy sections (Transformation, Comparison, Insights).",
+    "visual_language": "Tactical Minimalism. Sharp edges, high contrast, glassmorphism for navigation."
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Outfit",
+      "body": "Inter",
+      "mono": "JetBrains Mono"
+    },
+    "scale": {
+      "h1": "text-6xl md:text-7xl font-bold tracking-tight",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed text-muted-foreground",
+      "small": "text-sm font-medium tracking-wide uppercase text-muted-foreground"
+    },
+    "rules": [
+      "Do NOT use Inter for Headings.",
+      "Use tight tracking for large headings.",
+      "Use wide tracking for small uppercase labels."
+    ]
+  },
+  "colors": {
+    "primary": "#2563EB",
+    "secondary": "#1E1B4B",
+    "accent": {
+      "green": "#10B981",
+      "red": "#EF4444",
+      "amber": "#F59E0B",
+      "cyan": "#06B6D4"
+    },
+    "background": {
+      "dark": "#09090B",
+      "light": "#F8FAFC",
+      "card_dark": "#18181B",
+      "card_light": "#FFFFFF"
+    },
+    "text": {
+      "primary_dark": "#FAFAFA",
+      "secondary_dark": "#A1A1AA",
+      "primary_light": "#0F172A",
+      "secondary_light": "#64748B"
+    },
+    "gradients": {
+      "hero": "bg-gradient-to-br from-blue-600 via-indigo-900 to-black",
+      "beam": "bg-gradient-to-b from-blue-500 via-purple-500 to-transparent"
+    }
+  },
+  "layout_strategies": {
+    "bento_grid": {
+      "description": "Asymmetric grid for company comparison.",
+      "classes": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4",
+      "items": [
+        "Jio: col-span-2 row-span-2 (Hero)",
+        "Airtel: col-span-1 row-span-2 (Challenger)",
+        "Vi: col-span-1 row-span-1",
+        "BSNL: col-span-1 row-span-1"
+      ]
+    },
+    "tracing_beam": {
+      "description": "Vertical line timeline for Pre vs Post 2016.",
+      "implementation": "Absolute positioned div with gradient background, animating height on scroll."
+    },
+    "glassmorphism": {
+      "nav": "backdrop-blur-xl bg-background/70 border-b border-border/40 sticky top-0 z-50",
+      "card": "backdrop-blur-md bg-white/5 border border-white/10"
+    }
+  },
+  "components": {
+    "hero": {
+      "type": "custom",
+      "elements": [
+        "Headline: 'The Jio Effect'",
+        "Subheadline: 'Visualizing the Disruption of India's Telecom Sector'",
+        "Live Counter: 'Data Consumed Today' (Ticker)",
+        "Background: Abstract Network Grid"
+      ]
+    },
+    "charts": {
+      "library": "recharts",
+      "style": "Minimalist, thin lines, dot markers only on hover. Use custom tooltips."
+    },
+    "interactive": {
+      "library": "shadcn/ui",
+      "customization": "Radius: 0.5rem. Shadows: shadow-lg. Borders: subtle."
+    }
+  },
+  "images": {
+    "hero_bg": "https://images.unsplash.com/photo-1768330187404-59e46cf222c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHw0fHxhYnN0cmFjdCUyMGJsdWUlMjBuZXR3b3JrJTIwbGluZXN8ZW58MHx8fHwxNzczNTc1ODI4fDA&ixlib=rb-4.1.0&q=85",
+    "server_context": "https://images.unsplash.com/photo-1762163516269-3c143e04175c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwzfHxtb2Rlcm4lMjBkYXRhJTIwY2VudGVyJTIwc2VydmVyJTIwbGlnaHRzfGVufDB8fHx8MTc3MzU3NTgyOXww&ixlib=rb-4.1.0&q=85",
+    "india_map": "https://images.unsplash.com/photo-1546833998-07256bcc76ad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxmdXR1cmlzdGljJTIwZGlnaXRhbCUyMGluZGlhJTIwbWFwJTIwbmV0d29yayUyMGNvbm5lY3Rpb25zJTIwYmx1ZXxlbnwwfHx8fDE3NzM1NzU4MTd8MA&ixlib=rb-4.1.0&q=85",
+    "logos": {
+      "note": "Use text-based logos or clearbit API if available. Fallback to clean typography.",
+      "jio": "https://logo.clearbit.com/jio.com",
+      "airtel": "https://logo.clearbit.com/airtel.in",
+      "vi": "https://logo.clearbit.com/myvi.in",
+      "bsnl": "https://logo.clearbit.com/bsnl.co.in"
+    }
+  },
+  "universal_guidelines": [
+    "Do NOT apply universal transition: all.",
+    "Do NOT center align the app container.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Every interaction needs micro-animations.",
+    "All interactive elements MUST include data-testid.",
+    "Use sonner for toasts."
+  ]
+}
